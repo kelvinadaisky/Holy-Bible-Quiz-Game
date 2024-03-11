@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    tools:context=".MainActivity"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="40sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="#363843"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_enter_your_name"
+        android:paddingTop="20dp"
+    android:paddingBottom="16dp"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="#7A8089"
+    />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_g_kelvin"
+            android:inputType="textCapWords"
+            android:textColor="#363843"
+            android:textColorHint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+    android:id="@+id/btnStart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@color/design_default_color_primary"
+    android:text="@string/start"
+    android:textColor="@color/white"
+    android:textSize="24sp"
+    />
+
+    </LinearLayout>

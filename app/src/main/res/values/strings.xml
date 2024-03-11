@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Holy Bible Quiz</string>
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+    <string name="high_score">HIGH SCORE</string>
+    <string name="no_data_available">NO DATA AVAILABLE</string>
+    <string name="start">START</string>
+    <string name="image">image</string>
+    <string name="setting">SETTING</string>
+    <string name="question">Question :</string>
+    <string name="_1">1</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="e_g_kelvin">e.g Kelvin</string>
+    <string name="do_you_end_the_game">Do you end the game ?</string>
+    <string name="end">End</string>
+    <string name="continuer">Continue</string>
+    <string name="correct_answers">Correct Answers :</string>
+    <string name="earned_points">Earned points :</string>
+    <string name="restart">Restart</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="sound_effect">Sound Effect</string>
+    <string name="music">Music</string>
+    <string name="more_app">More App</string>
+    <string name="about">About</string>
+</resources>

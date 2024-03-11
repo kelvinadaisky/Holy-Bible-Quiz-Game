@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information:\n\n"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewContactInfo"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/envelope"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: your.email@example.com"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +1 123-456-7890"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

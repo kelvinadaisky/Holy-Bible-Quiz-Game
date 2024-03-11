@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center"
+         >
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/do_you_end_the_game"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:textSize="25dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:id="@+id/correctAnswersVisibility"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+                android:text="@string/correct_answers"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/correctAnswers"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                tools:text="10"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:text="@string/earned_points"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/earnedPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            tools:text="10"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnRestart"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/restart"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnMainMenu"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/main_menu"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="11sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
